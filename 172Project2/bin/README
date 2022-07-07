@@ -1,0 +1,20 @@
+README project 1
+Ahmed Chaudhry, Allison Fortman
+NETID: achaud16, achaud16@u.rochester.edu, NETID- afortman, afortman@u.rochester.edu
+
+Compile instructions: The code was created on eclipse/intelliJ.
+
+Our main method contains the bulk of our program's functioning. The main while loop continues if gameOver is true. This loop checks the input of the user (W,A,S,D) and prompts the game to take the next appropriate steps. The quit and restart functions also exist here and must be confirmed by the user before done. Additionally, the main continuously will check if the game has been won (if 2048 is present). 
+
+The maxValue method is taken advantage of throughout the game in order to find the greatest value on the game board. 
+
+Our initialize method creates the array game board with the correct probabilities for 2's and 4's.
+
+displayArray will properly align and output the game board with borders. 
+
+The addRight method slides and adds the correct tiles if right is prompted.
+The addLeft method slides and adds the correct tiles if left is prompted. 
+The addUp method slides and adds the correct tiles if up is prompted. 
+The addDown method slides and adds the correct tiles if down is prompted. 
+
+Finally, our addRandomNumToArray method uses random numbers to continue the game moving, with the correct probabilities for 2's and 4's.
